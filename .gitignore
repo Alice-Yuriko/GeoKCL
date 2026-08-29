@@ -1,0 +1,77 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local environment variables
+.venv/
+venv/
+env/
+.tools/
+.env
+.env.*
+!.env.example
+
+# Packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Notebooks and editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Datasets and local model assets
+data/
+datasets/
+pretrained_models/
+models/
+weights/
+checkpoints/
+
+# Experiment outputs
+outputs/
+output/
+results/
+runs/
+logs/
+gk/
+wandb/
+tensorboard/
+*.log
+
+# Model checkpoints and large binary artifacts
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# Archives and local scratch files
+*.7z
+*.zip
+*.tar
+*.tar.gz
+*.tmp
+*.temp
+~$*
+
+# Common secret-bearing files
+*.pem
+*.key
+credentials.json
+secrets.json
